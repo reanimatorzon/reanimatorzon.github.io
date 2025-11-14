@@ -13,8 +13,12 @@ body {
 }
 
 main, header, footer {
-  margin: 0 !important;
   padding: 0 !important;
+}
+
+main.container {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 h1, h2, h3 {
